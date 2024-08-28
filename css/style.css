@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* INICIO ESTILO CONTAINER */
+.container{
+    width: 100%;
+    min-width: 640px;
+    margin: 0 auto;
+}
+
+.container header{
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #f7b600;
+}
+
+.container header .menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 90%;
+    height: 90px;
+    
+}
+
+.container li{
+   margin: auto;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px 0px;
+}
+.container a:hover{
+    background-color: white;
+    color: #f7b600;
+}
+/* FIM ESTILO CONTAINER*/
+
+
+/*INICIO ESTILO DO INDEX*/
+#quemSou{
+    width: 50%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+#quemSou h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #f7b600;   
+}
+
+#quemSou p{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+}
+/*FIM ESTILO INDEX*/
+
+/*INICIO ESTILO DO FORMAÇÃO*/
+#formacao{
+    width: 50%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+#formacao h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #f7b600; 
+}
+
+#formacao p{
+    margin: 20px auto;
+    text-align: justify;
+    font-size: 16px;
+}
+/*FIM ESTILO FORMAÇÃO*/
+
+
+/*INICIO ESTILO DO CONTATO*/
+#contato{
+    width: 50%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+#contato fieldset{
+    padding: 20px 10px;
+    border: 2px solid #f7b600;
+}
+
+#contato legend{
+    text-align: center;
+    font-size: 25px;
+    color: #f7b600;
+    padding: 0px 5px;
+}
+
+#contato label{
+    font-size: 18px;
+}
+
+#contato input{
+    height: 15px;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+/*FIM ESTILO CONTATO*/
+
+
+/*INICIO ESTILO PORTFÓLIO*/
+#portfolio{
+    width: 50%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+#portfolio h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #f7b600;
+    margin-bottom: 25px;
+}
+
+#portfolio li{
+    list-style: none;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#portfolio a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px 0px;
+}
+/*FIM ESTILO PORTFÓLIO*/
