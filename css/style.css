@@ -96,6 +96,37 @@ body{
 }
 /*FIM ESTILO FORMAÇÃO*/
 
+/*INICIO ESTILO PORTFÓLIO*/
+#portfolio{
+    width: 50%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+#portfolio h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #f7b600;
+    margin-bottom: 25px;
+}
+
+#portfolio li{
+    list-style: none;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#portfolio a{
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px 0px;
+}
+/*FIM ESTILO PORTFÓLIO*/
 
 /*INICIO ESTILO DO CONTATO*/
 #contato{
@@ -127,37 +158,18 @@ body{
     border-radius: 3px;
     padding: 3px 5px;
 }
+
+#contato textarea{
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#contato #botao{
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    background: #f7b600;
+    color: white;
+}
 /*FIM ESTILO CONTATO*/
-
-
-/*INICIO ESTILO PORTFÓLIO*/
-#portfolio{
-    width: 50%;
-    margin: 10px auto;
-    background-color: white;
-    border-radius: 10px;
-    padding: 30px 10px;
-}
-
-#portfolio h1{
-    text-align: center;
-    margin: 0 auto;
-    font-size: 25px;
-    color: #f7b600;
-    margin-bottom: 25px;
-}
-
-#portfolio li{
-    list-style: none;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-#portfolio a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    border-radius: 8px;
-    padding: 10px 0px;
-}
-/*FIM ESTILO PORTFÓLIO*/
